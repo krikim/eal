@@ -273,7 +273,7 @@ number=10/2*5-10*(0+1);<br>
 	<br>
 	function show(name1,name2)<br>
 	<br>
-	for (i=-1;i=i+1;i<$name1)<br>
+	for (i=0;i=i+1;i<$name1)<br>
 	        out('Запись #'+i+':');<br>
 	        fore k in ($name1[i])<br>
 	                out(k+':'+$name1[i].$k);<br>
