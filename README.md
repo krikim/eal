@@ -1,4 +1,4 @@
-# <img style="max-height: 40px;" src="http://geteal.com/img/ealbrand.png" alt="ealbrand"><span class="span_brand">AL</span>
+# <img style="max-height: 40px;" height="40px" src="http://geteal.com/img/ealbrand.png" alt="ealbrand"><span class="span_brand">AL</span>
 Easy to learn Easy to use scripting language EAL (Easy application language)<br>
 http://www.geteal.com - licence and documentation<br>
 ealbuild_fb_ssl_incl.zip - distributive for Windows 64bit, including firebird and openssl librarys<br>
