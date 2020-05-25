@@ -397,7 +397,7 @@ out('$a;+$b;'); #результат 5+6 <br>
 <br>ESSaveFile(var1,var2) — сохранить var2 в файл var1
 <br>
 <h2>База данных FireBird</h2>
-<br>ESDbInit(var1) - возвращает 0 или -1 в случае ошибки. Var1 – строка подключения к базе данных с параметрами разделенными; hostname, dbname,dbuser,dbpass,locale
+<br>ESDbInit(var1) - возвращает 0 или -1 в случае ошибки. Var1 – строка подключения к базе данных с параметрами разделенными ";"  Пример: connstring='hostname=127.0.0.1;dbname=c:\db\db.fdb;dbuser=SYSDBA;dbpass=123;locale=utf8;';
 <br>ESExecSql(var1,var2,var3) – возвращает количество строк полученное при выполнение запроса select или update returning, 0 или -1 в случае ошибки. Var1 – имя массива куда будут записаны результаты выполнения запроса select или update returning, может быть пустым, если обычный update или delete, массив состоит из именованных массивов, равный количеству полученных строк, именнованный массив содержит название коллонки и значение [{col1=val1;col2=val2;col3=val3; .. coln=valn;};{col1=val1;col2=val2;col3=val3; .. coln=valn;}; .. {col1=val1;col2=val2;col3=val3; .. coln=valn;};]; var2 – запрос sql, обязательно для заполнения; var3 – заполняется в случаях параметризованного запроса Update или Insert для заполнения блоб поля, параметр поддерживается только один. 
 <br>ESDbCreate(var1) – возвращает 0 или -1 в случае ошибки. Var1 – параметры для создания базы данных в виде списка dbname,dbuser,dbpass,locale,page  
 <br>ESDbClose() - закрытие подключения к базе данных.
