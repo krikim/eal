@@ -148,10 +148,10 @@ number=10/2*5-10*(0+1);<br>
 		<h2>Цикл fore in (строка со значениями, разделенными пробелом) … erof. Цикл удобно использовать с именованным массивом. Пример:<br></h2>
 		Array=[{name='Andrew';lastname='Good';};];<br>
 	Array=[{name='Paul';lastname='Goodest';};];<br>
-	Array=[{name='Victor';lastname='Best';};];<br><br>
+	Array=[{name='Victor';lastname='Best';};];<br>
 		Array2=[26;17;18;];<br>
-	for (i=0;i=i+1;i<Array)<br>
-		out('Запись #'+i+':');<br>
+	for (i=0;i=i+1;i<Array) <br>
+		<br>out('Запись #'+i+':');<br>
 		fore k in (Array[i])<br>
 			out(k+':'+Array[i].$k);<br>
 			erof<br>
